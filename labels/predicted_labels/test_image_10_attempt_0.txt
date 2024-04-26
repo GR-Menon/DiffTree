@@ -1,0 +1,21 @@
+1 - H - Further prioritize the sub-set of domains by value and feasibility
+1.1 - H - Value
+1.1.1 - H - Financial benefits
+1.1.1.1 - T - New customers, lowered churn,
+1.1.2 - H - Experience
+1.1.2.1 - T - Increase customer or employee
+1.1.3 - H - Speed
+1.1.3.1 - T - Less time required to
+1.1.4 - H - Synergy
+1.1.4.1 - T - Data and models can
+1.2 - H - Feasibility
+1.2.1 - H - Sponsorship
+1.2.1.1 - T - The business has capacity
+1.2.2 - H - Simplicity
+1.2.2.1 - T - Models required to enable
+1.2.3 - H - Data readiness
+1.2.3.1 - T - Requisite data is available,
+1.2.4 - H - Tech readiness
+1.2.4.1 - T - Requisite cloud-based infrastructure
+1.2.5 - H - Ease of adoption
+1.2.5.1 - T - Less change management needed

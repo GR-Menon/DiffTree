@@ -1,0 +1,22 @@
+1 - H - Leverage Influence Model to
+1.1 - T - Successful transformations are 8x
+1.1.1 - H - Role modeling
+1.1.1.1 - T - "I see my leaders,
+1.1.1.1.1 - T - Senior leader/senior team role
+1.1.1.1.2 - T - Symbolic acts
+1.1.1.1.3 - T - Influence leaders
+1.1.2 - H - Fostering understanding and conviction
+1.1.2.1 - T - "I know what is
+1.1.2.1.1 - T - Change story
+1.1.2.1.2 - T - On-going, two-way communications
+1.1.2.1.3 - T - Language and rituals
+1.1.3 - H - Developing talent and skills
+1.1.3.1 - T - "I have the skills
+1.1.3.1.1 - T - Technical and relational skills
+1.1.3.1.2 - T - Field and forum programs
+1.1.3.1.3 - T - New talent hire
+1.1.4 - H - Reinforcement mechanisms
+1.1.4.1 - T - "Barriers are being removed
+1.1.4.1.1 - T - Structure and systems
+1.1.4.1.2 - T - Processes
+1.1.4.1.3 - T - Incentives
