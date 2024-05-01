@@ -1,7 +1,6 @@
 import os
-import re
+
 import streamlit as st
-import difflib as dl
 
 from txt2tree import txt2tree
 from utils import get_pred, text_diff
@@ -16,7 +15,10 @@ output = st.container()
 # App Content
 
 with header:
-    st.markdown("<h1 style='text-align: center; color: white;'>DiffTree</h1>", unsafe_allow_html=True)
+    st.markdown(
+        "<h1 style='text-align: center; color: white;'>DiffTree</h1>",
+        unsafe_allow_html=True,
+    )
 
 with upload:
     gt_path = "labels/actual_labels/"
@@ -42,7 +44,8 @@ with output:
             if key in gt_nodes:
                 st.markdown(
                     f'<span style="color:white">{key} </span><span style="color:cyan">x-x-x-x-x-x-x-x-x</span>',
-                    unsafe_allow_html=True)
+                    unsafe_allow_html=True,
+                )
             elif key not in gt_nodes:
                 st.write(f"{key} - {gt_tree[key][0]} - {gt_tree[key][1]}")
 
@@ -52,16 +55,19 @@ with output:
             if key in pred_nodes:
                 st.markdown(
                     f'<span style="color:white">{key} </span><span style="color:cyan">x-x-x-x-x-x-x-x-x</span>',
-                    unsafe_allow_html=True)
+                    unsafe_allow_html=True,
+                )
 
             elif key not in gt_nodes and gt_tree[key][0] != pred_tree[key][0]:
                 st.markdown(
-
                     f'<span style="color:white">{key} - </span><span style="color:orange">{pred_tree[key][0]}</span><span style="color:white"> - {text_diff(gt_tree[key][1], pred_tree[key][1])}</span>',
-                    unsafe_allow_html=True)
+                    unsafe_allow_html=True,
+                )
             elif key not in gt_nodes:
-                st.write(f'{key} - {pred_tree[key][0]} - {text_diff(gt_tree[key][1], pred_tree[key][1])}',
-                         unsafe_allow_html=True)
+                st.write(
+                    f"{key} - {pred_tree[key][0]} - {text_diff(gt_tree[key][1], pred_tree[key][1])}",
+                    unsafe_allow_html=True,
+                )
             elif key in gt_nodes:
                 st.write(f"{key} - {pred_tree[key][0]} - {pred_tree[key][1]}")
 

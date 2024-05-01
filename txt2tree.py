@@ -5,7 +5,7 @@ def txt2tree(file_path):
     tree = {}
 
     for line in lines:
-        tokens = line.split(' - ')
+        tokens = line.split(" - ")
         tree[tokens[0]] = (tokens[1], tokens[2])
 
     return tree
