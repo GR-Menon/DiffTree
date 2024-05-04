@@ -3,17 +3,15 @@
 ### Git Diff between tree-structured file contents.
 
 - The respective colours mean the following operations :-
-  > <span style='color: green'>Insertion</span><span>: Text absent in ground truth file, but present in prediction
-  file.</span></br>
-  <span style='color: red'>Deletion</span><span> : Text present in ground truth file, but absent in prediction
-  file.</span>     </br>
-  <span style='color:magenta'>Replacement</span><span> : Text from prediction file, to be replaced in ground truth
-  file.</span>     
-  <span style='color:cyan'>Missing Nodes</span><span> : Indicates tree nodes missing in respective file content.</span>
+  > $\color{green}Insertion$: Text absent in ground truth file, but present in prediction file.</br>
+  $\color{red}Deletion$ : Text present in ground truth file, but absent in prediction file. </br>
+  $\color{magenta}Replacement$ : Text from prediction file, to be replaced in ground truth
+  file.     
+  $\color{cyan}Missing Nodes$ : Indicates tree nodes missing in respective file content.
 
 ![output1](imgs/difftree1.png)     
 
------
+
 - A sample input file looks like so:    
   > 1 - H - A the response in   
   1.1 - T - And "Interests Consider" to    
